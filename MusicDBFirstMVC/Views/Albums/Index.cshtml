@@ -15,10 +15,14 @@
             @Html.DisplayNameFor(model => model.AlbumName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.JamCity)
+            @Html.DisplayNameFor(model => model.Artist.ArtistName)
         </th>
+
         <th>
             @Html.DisplayNameFor(model => model.DateReleased)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JamCity)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.AlbumPhoto)
@@ -26,9 +30,7 @@
         <th>
             @Html.DisplayNameFor(model => model.AlbumPhotoBack)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Artist.ArtistName)
-        </th>
+
         <th></th>
     </tr>
 
@@ -38,10 +40,13 @@
             @Html.DisplayFor(modelItem => item.AlbumName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.JamCity)
+            @Html.DisplayFor(modelItem => item.Artist.ArtistName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DateReleased)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JamCity)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.AlbumPhoto)
@@ -49,13 +54,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.AlbumPhotoBack)
         </td>
+
         <td>
-            @Html.DisplayFor(modelItem => item.Artist.ArtistName)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AlbumID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AlbumID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AlbumID })
+            @Html.ActionLink("Edit", "Edit", new { id = item.AlbumID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.AlbumID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.AlbumID })
         </td>
     </tr>
 }
