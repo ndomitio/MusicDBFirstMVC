@@ -183,14 +183,26 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ARTIST.css" />
+    <Content Include="BEATLES.js" />
+    <Content Include="Content\AVENGERS 620x396.jpg" />
+    <Content Include="Content\Beatles Signed White Album.jpg" />
+    <Content Include="Content\beatles.txt" />
+    <Content Include="Content\beatlescomic.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\comicstrip.jpg" />
+    <Content Include="Content\Famous Fonts.txt" />
+    <Content Include="Content\quentin.jpeg" />
     <Content Include="Content\sheryl.jpg" />
     <Content Include="Content\sheryl2.jpg" />
+    <Content Include="Content\Tarantino+Movies.jpg" />
+    <Content Include="Content\thors-hammer-patch.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HOME.css" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -213,6 +225,7 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="Content\BOOTLE__.TTF" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
