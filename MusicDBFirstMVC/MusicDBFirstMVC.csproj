@@ -183,6 +183,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ALBUM.css" />
     <Content Include="ARTIST.css" />
     <Content Include="BEATLES.js" />
     <Content Include="Content\AVENGERS 620x396.jpg" />
@@ -193,7 +194,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\comicstrip.jpg" />
     <Content Include="Content\Famous Fonts.txt" />
+    <Content Include="Content\george.jpg" />
+    <Content Include="Content\KBblackandwhite.png" />
+    <Content Include="Content\KBsketch.jpg" />
+    <Content Include="Content\lennon.jpg" />
+    <Content Include="Content\paulmc.jpg" />
+    <Content Include="Content\pulpgiphy.gif" />
     <Content Include="Content\quentin.jpeg" />
+    <Content Include="Content\ringo.jpg" />
+    <Content Include="Content\rsz_kbblackandwhite.png" />
     <Content Include="Content\sheryl.jpg" />
     <Content Include="Content\sheryl2.jpg" />
     <Content Include="Content\Tarantino+Movies.jpg" />

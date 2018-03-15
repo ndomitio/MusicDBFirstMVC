@@ -1,13 +1,12 @@
 ﻿@model IEnumerable<MusicDBFirstMVC.Models.Artist>
 
 @{
-    ViewBag.Title = "Index";
+    @Html.ActionLink("Create New", "Create")
 }
 <link href="~/ARTIST.css" rel="stylesheet" />
-<h2>Index</h2>
+
 
 <p>
-    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
