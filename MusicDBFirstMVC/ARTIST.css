@@ -15,8 +15,8 @@
     .slider .slider-row {
         width: 100%;
         height: 300px;
-        /*background-image: url('Content/quentin.jpeg');*/
-        background: url('Content/beatlescomic.jpg') no-repeat center center;
+        background-image: url('Content/quentin.jpeg');
+        /*background: url('Content/beatlescomic.jpg') no-repeat center center;*/
         
         animation: slide 50s linear infinite;
     }

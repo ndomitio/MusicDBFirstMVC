@@ -186,6 +186,8 @@
     <Content Include="ALBUM.css" />
     <Content Include="ARTIST.css" />
     <Content Include="BEATLES.js" />
+    <Content Include="Content\3collage.jpg" />
+    <Content Include="Content\aldorain.jpg" />
     <Content Include="Content\AVENGERS 620x396.jpg" />
     <Content Include="Content\Beatles Signed White Album.jpg" />
     <Content Include="Content\beatles.txt" />
@@ -197,6 +199,7 @@
     <Content Include="Content\george.jpg" />
     <Content Include="Content\KBblackandwhite.png" />
     <Content Include="Content\KBsketch.jpg" />
+    <Content Include="Content\Kill-Bill.jpg" />
     <Content Include="Content\lennon.jpg" />
     <Content Include="Content\paulmc.jpg" />
     <Content Include="Content\pulpgiphy.gif" />
@@ -207,6 +210,10 @@
     <Content Include="Content\sheryl2.jpg" />
     <Content Include="Content\Tarantino+Movies.jpg" />
     <Content Include="Content\thors-hammer-patch.jpg" />
+    <Content Include="Content\timrothpulpfiction.jpg" />
+    <Content Include="Content\umaKB.jpg" />
+    <Content Include="Content\umapulpfiction.jpg" />
+    <Content Include="Content\vince pulpfiction.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -222,6 +229,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="parallax.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

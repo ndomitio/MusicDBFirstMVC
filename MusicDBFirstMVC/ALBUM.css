@@ -1,474 +1,108 @@
-﻿.dmbmp {
-    background-color: #282828;
-    padding: 5px;
-    width: 250px;
-}
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
 
-.dmbmptop {
-    width: 250px;
-    height: 20px;
-    background: #353535;
-    
+.snip1336 {
+    font-family: 'Roboto', Arial, sans-serif;
     position: relative;
-    z-index: 3;
-}
-
-    .dmbmptop::after {
-        content: '';
-        position: absolute;
-        top: 20px;
-        right: 0px;
-        z-index: 3;
-        border-top: 20px solid #353535;
-        border-right: 250px solid transparent;
-    }
-
-#dmbmpimg {
-    width: 250px;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-}
-
-    #dmbmpimg .dmbmphov {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 250px;
-        height: 450px;
-        -webkit-transition: 1s all ease-in-out;
-        -moz-transition: 1s all ease-in-out;
-        o-transition: 1s all ease-in-out;
-        z-index: 2;
-    }
-
-    #dmbmpimg:hover .dmbmphov {
-        -webkit-transition: 1s all ease-in-out;
-        -moz-transition: 1s all ease-in-out;
-        o-transition: 1s all ease-in-out;
-        top: 450px;
-    }
-
-.dmbchip {
-    width: 230px;
-    height: 330px;
-    position: relative;
-    top: 25px;
-    background: transparent;
-}
-
-.dmbmpalias {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: Montserrat;
-    font-size: 15px;
-    text-align: right;
-    text-transform: uppercase;
-    color: #353535;
-}
-
-.dmbmpstat1 {
-    width: 230px;
-    margin-left: 8px;
-    display: block;
-    border-bottom: 1px #353535 solid;
-    height: 25px;
-    margin-right: 5px;
-    font-family: clear sans;
-    font-size: 8px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding-right: 5px;
-    text-align: right;
-    color: #ccc;
-    text-transform: uppercase;
-    overflow: hidden;
-    line-height: 25px;
-}
-
-    .dmbmpstat1 i {
-        width: 25px;
-        height: 25px;
-        text-align: center;
-        display: inline-block;
-        float: left;
-        color: #d7d7d7;
-        line-height: 25px;
-        font-size: 11px;
-        border-right: 1px #414141 solid;
-    }
-
-    .dmbmpstat1 span {
-        float: left !important;
-        margin-left: 8px;
-    }
-
-.dmbmpgif {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    border: 5px solid #1F1F1F;
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
-    margin-left: 15px;
-}
-
-.dmbmpbottom {
-    width: 250px;
-    height: 60px;
-    background: #353535;
-    position: relative;
-    z-index: 2;
-}
-
-    .dmbmpbottom::before {
-        content: '';
-        position: absolute;
-        bottom: 60px;
-        right: 0px;
-        z-index: 1;
-        border-bottom: 40px solid #353535;
-        border-left: 250px solid transparent;
-    }
-
-.dmbmpwrap {
     float: left;
-    height: 50px;
-    padding-left: 25px;
-}
-
-.dmbmpnick {
-    font-family: Hello Sunshine;
-    font-size: 60px;
-    color: #b0b0b0;
-    text-transform: lowercase;
-    margin-top: -3px;
-}
-
-.dmbbotgifw {
-    padding-right: 10px;
-    position: relative;
-    top: -88px;
-    left: 130px;
-    z-index: 99;
-}
-
-.dmbmpbotg {
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    border: solid 5px #353535;
     overflow: hidden;
-    background-position: center;
-    background-size: cover;
+    margin: 10px 1%;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.4em;
+    background-color: #141414;
 }
 
-.dmbmp {
-    background-color: #282828;
-    padding: 5px;
-    width: 250px;
-}
-
-.dmbmptop {
-    width: 250px;
-    height: 20px;
-    background: #353535;
-    position: relative;
-    z-index: 3;
-}
-
-    .dmbmptop::after {
-        content: '';
-        position: absolute;
-        top: 20px;
-        right: 0px;
-        z-index: 3;
-        border-top: 20px solid #353535;
-        border-right: 250px solid transparent;
+    .snip1336 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.25s ease;
+        transition: all 0.25s ease;
     }
 
-#dmbmpimg {
-    width: 250px;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-}
-
-    #dmbmpimg .dmbmphov {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 250px;
-        height: 450px;
-        -webkit-transition: 1s all ease-in-out;
-        -moz-transition: 1s all ease-in-out;
-        o-transition: 1s all ease-in-out;
-        z-index: 2;
+    .snip1336 img {
+        max-width: 100%;
+        vertical-align: top;
+        opacity: 0.85;
     }
 
-    #dmbmpimg:hover .dmbmphov {
-        -webkit-transition: 1s all ease-in-out;
-        -moz-transition: 1s all ease-in-out;
-        o-transition: 1s all ease-in-out;
-        top: 450px;
-    }
-
-.dmbchip {
-    width: 230px;
-    height: 330px;
-    position: relative;
-    top: 25px;
-    background: transparent;
-}
-
-.dmbmpalias {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: Montserrat;
-    font-size: 15px;
-    text-align: right;
-    text-transform: uppercase;
-    color: #353535;
-}
-
-.dmbmpstat1 {
-    width: 230px;
-    margin-left: 8px;
-    display: block;
-    border-bottom: 1px #353535 solid;
-    height: 25px;
-    margin-right: 5px;
-    font-family: clear sans;
-    font-size: 8px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding-right: 5px;
-    text-align: right;
-    color: #ccc;
-    text-transform: uppercase;
-    overflow: hidden;
-    line-height: 25px;
-}
-
-    .dmbmpstat1 i {
-        width: 25px;
-        height: 25px;
-        text-align: center;
-        display: inline-block;
-        float: left;
-        color: #d7d7d7;
-        line-height: 25px;
-        font-size: 11px;
-        border-right: 1px #414141 solid;
-    }
-
-    .dmbmpstat1 span {
-        float: left !important;
-        margin-left: 8px;
-    }
-
-.dmbmpgif {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    border: 5px solid #1F1F1F;
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
-    margin-left: 15px;
-}
-
-.dmbmpbottom {
-    width: 250px;
-    height: 60px;
-    background: #353535;
-    position: relative;
-    z-index: 2;
-}
-
-    .dmbmpbottom::before {
-        content: '';
-        position: absolute;
-        bottom: 60px;
-        right: 0px;
-        z-index: 1;
-        border-bottom: 40px solid #353535;
-        border-left: 250px solid transparent;
-    }
-
-.dmbmpwrap {
-    float: left;
-    height: 50px;
-    padding-left: 25px;
-}
-
-.dmbmpnick {
-    font-family: Hello Sunshine;
-    font-size: 60px;
-    color: #b0b0b0;
-    text-transform: lowercase;
-    margin-top: -3px;
-}
-
-.dmbbotgifw {
-    padding-right: 10px;
-    position: relative;
-    top: -88px;
-    left: 130px;
-    z-index: 99;
-}
-
-.dmbmpbotg {
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    border: solid 5px #353535;
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
-}
-
-
-/* top portion */
-
-#dmbtop {
-    width: 889px;
-    background-color: #212121;
-    height: 100px;
-    padding: 20px;
-    border-bottom: 1px solid #414141;
-}
-
-    #dmbtop .name {
-        font-family: Betterfly Draft;
-        position: absolute;
-        font-size: 50px;
-        color: #b0b0b0;
-        font-weight: 200;
-        letter-spacing: 1px;
-        line-height: 100%;
-        right: 70px;
-        top: 30px;
-        text-transform: lowercase;
-    }
-
-    /* name colors per membergroup */
-
-    #dmbtop .name-Admin {
-        color: #54b6be !important;
-    }
-
-    #dmbtop .name-Members {
-        color: #999999 !important;
-    }
-
-    #dmbtop .name-Shifters {
-        color: #00b07d !important;
-    }
-
-    #dmbtop .name-Vampires {
-        color: #d2291a !important;
-    }
-
-    #dmbtop .name-Witches {
-        color: #F56791 !important;
-    }
-
-    #dmbtop .name-Humans {
-        color: #be59be !important;
-    }
-
-    /* end name colors */
-
-    #dmbtop .stuff {
-        font-family: GeoSans;
-        font-size: 10px;
-        display: inline-block;
-        text-transform: uppercase;
-        color: #b0b0b0;
-        letter-spacing: 3px;
-        font-weight: 200;
-        margin-right: 100px;
-        margin-top: 60px;
-        float: right;
-        text-align: left;
-        display: inline-block;
+    .snip1336 figcaption {
+        width: 100%;
+        background-color: #141414;
+        padding: 25px;
         position: relative;
-        border-top: #414141 solid 1px;
-        padding-top: 3px;
     }
 
-    #dmbtop .gif {
-        display: inline-block;
-        height: 110px;
-        width: 110px;
-        border-radius: 100%;
-        margin-top: -10px;
-        padding: 5px;
-    }
+        .snip1336 figcaption:before {
+            position: absolute;
+            content: '';
+            bottom: 100%;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 55px 0 0 400px;
+            border-color: transparent transparent transparent #141414;
+        }
 
-    /* gifborder color */
-    #dmbtop .gif-Admin {
-        background-color: #54b6be !important;
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        padding: 5px;
-    }
+        .snip1336 figcaption a {
+            padding: 5px;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-size: 0.7em;
+            text-transform: uppercase;
+            margin: 10px 0;
+            display: inline-block;
+            opacity: 0.65;
+            width: 47%;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
 
-    #dmbtop .gif-Members {
-        background-color: #999999 !important;
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        padding: 5px;
-    }
+            .snip1336 figcaption a:hover {
+                opacity: 1;
+            }
 
-    #dmbtop .gif-Shifters {
-        background-color: #00b07d !important;
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        padding: 5px;
-    }
-
-    #dmbtop .gif-Vampires {
-        background-color: #d2291a !important;
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        padding: 5px;
-    }
-
-    #dmbtop .gif-Witches {
-        background-color: #F56791 !important;
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        padding: 5px;
-    }
-
-    #dmbtop .gif-Humans {
-        background-color: #be59be !important;
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        padding: 5px;
-    }
-
-    /* end gifborder color */
-
-    #dmbtop .gif .image {
-        width: 90px;
-        height: 90px;
+    .snip1336 .profile {
+        height:75px;
         border-radius: 50%;
-        margin-top: 5px;
-        margin-left: 5px;
-        -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-        filter: grayscale(100%);
+        position: absolute;
+        bottom: 100%;
+        left: 25px;
+        z-index: 1;
+        max-width: 90px;
+        opacity: 1;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     }
 
-/* mini profile */
+    .snip1336 .follow {
+        margin-right: 4%;
+        border-color: #2980b9;
+        color: #2980b9;
+    }
+
+    .snip1336 h2 {
+        margin: 0 0 5px;
+        font-weight: 300;
+    }
+
+        .snip1336 h2 span {
+            display: block;
+            font-size: 0.5em;
+            color: #2980b9;
+        }
+
+    .snip1336 p {
+        margin: 0 0 10px;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        opacity: 0.8;
+    }
+/* Demo purposes only */
+body {
+    background-color: #212121;
+}
